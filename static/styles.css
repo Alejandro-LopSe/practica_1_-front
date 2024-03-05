@@ -1,0 +1,140 @@
+
+.header {
+  background-color: rgba(152, 202, 202, 0.87);
+  width: 100%;
+  height: fit-content;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  display: flex;
+  flex-direction: row; 
+  justify-content: center;
+
+  a{
+    background-color: rgba(106, 221, 173, 0.699);
+    color: rgb(0, 0, 0);
+    margin: 3px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-style: inset;
+    border-color: rgba(163, 153, 93, 0.671);
+    border-radius: 5px;
+  }
+}
+.airport{
+  display: flex;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  li{
+    display: flex;
+    margin: 3px;
+    
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(22, 116, 69, 0.493);
+    border-style: outset;
+    padding: 3px;
+    border-radius: 10px;
+    border-color: aquamarine;
+    
+  }
+  form{
+    display: flex;
+    justify-content: center;
+    margin: 3px;
+    button{
+      background-color: #00ffd5;
+      border-style: outset;
+      border-radius: 15%;
+      border-color:rgb(32, 122, 47);
+      font-size: 16px;
+      font-weight: 500;
+      color: #000000;
+      cursor: pointer;
+  }
+  
+    button:hover{
+      background-color: #0056b3;
+    }
+  }
+}
+.joke{
+  display: flex;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(22, 116, 69, 0.493);
+    border-style: outset;
+
+
+    padding: 3px;
+    border-color: aquamarine;
+    
+  }
+  li:first-child{
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+  }
+  li:last-child{
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+}
+.Recipe{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  h1{
+    color: #ffb85b;
+    font-style: italic;
+    margin: 10px;
+  }
+  p{
+    margin: 10px;
+    color: #3f2504;
+    font-style: oblique;
+  }
+  ul{
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    border-style: outset;
+    border-color: #000000;
+  }
+  .receta{
+    display: flex;
+    flex-direction: column;
+    margin: 25px;
+    border-style: groove ;
+    border-color: #ffb85b;
+  }
+  .br{
+    width: 100%;
+    border-bottom: 5px dotted rgb(0, 0, 0);
+  }
+  .componentereceta{
+    display: flex;
+    margin: 10px;
+    flex-direction: column;
+    border-style: outset;
+    border-color: #ffb85b;
+    list-style-type: square;
+  }
+}
+body{ 
+  background-image: linear-gradient(180deg,rgb(95, 158, 160),rgba(152, 202, 202, 0.87));
+  margin: 0;
+  min-height: 100dvh;
+}
